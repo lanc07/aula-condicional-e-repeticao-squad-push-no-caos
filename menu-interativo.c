@@ -51,7 +51,7 @@ int main()
             return 0;
         default:
             printf("Opção inválida. Tente novamente utilizando as opções válidas de 1 a 3.\n");
+            continue;
         }
     }
-    return 0;
 }
